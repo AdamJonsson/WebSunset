@@ -1,0 +1,34 @@
+
+#art-container {
+    position: fixed;
+    z-index: 1;
+}
+
+#new-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+
+    height: auto;
+    width: 100%;
+    margin-top: 150vh;
+
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+}
+    #new-body.active {
+        /* background-color: rgba(255, 255, 255, 1);
+        color: #353535;  */
+    }
+
+#into-text-content {
+    padding-bottom: 200px;
+}
