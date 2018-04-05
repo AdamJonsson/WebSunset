@@ -17,8 +17,7 @@
                 <div id="into-text-content">
                     <h1 class="middle-title">About this project</h1>
                     <p>
-                        I have always been a admirer of vector art because of the beauty and simplicity it has. 
-                        So one day I wanted to create a sceen but I could not diced witch time the screan should be in. Then I ask my self: "Why can I make all the sceans from all the times". And thous the project was stargin.
+                        It was a fun project. Enjoy =)
                     </p>    
                 </div> 
             </div>
