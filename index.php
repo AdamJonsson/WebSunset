@@ -17,8 +17,10 @@
                 <div id="into-text-content">
                     <h1 class="middle-title">About this project</h1>
                     <p>
-                        I have always been a admirer of vector art because of the beauty and simplicity it has. 
-                        So one day I wanted to create a sceen but I could not diced witch time the screan should be in. Then I ask my self: "Why can I make all the sceans from all the times". And thous the project was stargin.
+                        I have always been a admirer of vector art because of its beauty and simplicity it has. 
+                        So one day I wanted to create a vector sceen, but I could not decide what
+                        time the sceen should be set in. I then ask my self: "Why should I not be able to
+                        create all the sceens from dusk to dawn?". And thus the project was starting :)
                     </p>    
                 </div> 
             </div>

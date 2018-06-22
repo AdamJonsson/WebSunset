@@ -4,6 +4,14 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
+p {
+    line-height: 150%;
+}
+
+#into-text-content {
+    text-align: center;
+}
+
 .middle-title {
     text-align: center;
 }

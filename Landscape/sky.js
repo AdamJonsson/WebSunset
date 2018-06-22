@@ -1,4 +1,5 @@
 function CelestialBody(layer, horizonStart, offsetAngel = 0, lightRaysMode = true) {
+    
     this.layer = layer;
     this.size = this.layer.width * 0.025;
     this.offsetAngel = offsetAngel;
@@ -12,6 +13,7 @@ function CelestialBody(layer, horizonStart, offsetAngel = 0, lightRaysMode = tru
     this.amountOfLaightRays = 30;
     this.lightRaysRotation = [];
     this.lightRaysRotationSpeed = [];
+
     for(var i = 0; i < this.amountOfLaightRays; i++) {
         this.lightRaysRotationSpeed.push(Math.random() * 30 - 15);
         this.lightRaysRotation.push(360 * (i / this.amountOfLaightRays) + Math.random() * 20);
@@ -213,10 +215,8 @@ function Clouds(layer) {
     }
 }
 
-
-
-
 function Sky(layer) {
+
     this.layer = layer;
     this.horizon = this.layer.height * 0.75;
     this.sun = new CelestialBody(this.layer, this.horizon, 90, true);

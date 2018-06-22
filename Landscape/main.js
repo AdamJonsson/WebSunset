@@ -66,7 +66,7 @@ var hideCanvasTimeout = null;
 function loop() {
 
     if(window.pageYOffset < skyLayer.height * 1.75) {
-        globalTime += 1/120 * 1;
+        globalTime += 1/120;
     
         skyLayer.clearContext();
         sky.update();
